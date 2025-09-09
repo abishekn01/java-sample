@@ -128,4 +128,4 @@ jobs:
         run: |
           docker stop sample-app || true
           docker rm sample-app || true
-          docker run -d --name sample-app -p 8080:8080 $IMAGE_NAME:latest
+          docker run -d --name sample-app -p 8080:8080 $IMAGE_NAME:latest 
